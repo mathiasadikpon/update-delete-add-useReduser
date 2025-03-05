@@ -121,6 +121,7 @@ const COLLEGESDATA = [
   },
 ];
 
+export default COLLEGESDATA;
 // const COLLEGESDATA = [
 //   { name: "Harvard University", location: "Cambridge, MA", ranking: 1 },
 //   { name: "Stanford University", location: "Stanford, CA", ranking: 2 },
