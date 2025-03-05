@@ -1,14 +1,9 @@
-import React from 'react'
-import useFetch from '../utils/useFetch'
+import React from "react";
+
 
 const HomePage = () => {
-    const [data] = useFetch("https://api.data.gov/ed/collegescorecard/v1/schools");
-    console.log(data);
-  return (
-    <div>
-      {data}
-    </div>
-  )
-}
+  
+  return <div>{'Good fectch'}</div>;
+};
 
-export default HomePage
+export default HomePage;
